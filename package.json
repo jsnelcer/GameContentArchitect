@@ -1,5 +1,5 @@
 {
-  "name": "react-ts",
+  "name": "game-content-architect",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docker:up": "docker-compose up -d --build",
+    "docker:down": "docker-compose down",
+    "docker:restart": "docker-compose down && docker-compose up -d --build"
   },
   "dependencies": {
     "react": "^19.0.0",

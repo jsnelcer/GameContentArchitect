@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "2204:80"
+    volumes:
+      - .:/app # for dev, in production can be commented
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development # dev environment
