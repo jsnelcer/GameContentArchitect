@@ -1,0 +1,13 @@
+ 
+.start-node {
+  padding: 15px;
+  border: 1px solid green;
+  background-color: #e6ffe6;
+  border-radius: 5px;
+}
+
+.start-node .start-condition {
+  font-size: 0.8em;
+  color: green;
+  margin-top: 5px;
+}
